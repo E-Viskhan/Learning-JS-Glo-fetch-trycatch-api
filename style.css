@@ -1,0 +1,12 @@
+.choose-car {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.selected-cars, .selected-cars__car {
+  display: flex;
+  flex-direction: column;
+};
