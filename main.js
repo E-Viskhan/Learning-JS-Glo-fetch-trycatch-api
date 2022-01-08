@@ -9,7 +9,7 @@ const getData = ({ url, method = 'GET' }) => {
     .catch(() => console.log('Ошибка при получении данных. Вероятно нерправильная ссылка'));
 };
 
-const url = 'https://bfs01.getcourse.ru/public/files/12250/88/84120897322424565eb4cddeea2b910a.json?e=1641585599&s=z0XXuqx8O8HwjGlJZwvcLQ';
+const url = 'cars.json';
 
 const fillSelect = () => {
   getData({ url }).then(cars => {
